@@ -4,7 +4,7 @@ This template should help get you started developing with Vue 3 and TypeScript i
 
 Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
 
-## DEMO: [https://maluzhenkov.github.io/test_task_STEK/]
+## [DEMO](https://maluzhenkov.github.io/test_task_STEK/)
 
 ## Дополнительные улучшения UX
 
@@ -13,6 +13,7 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 ### 1. Focus Trap для модального окна
 
 Реализован композабл `useFocusTrap`, который обеспечивает доступность (a11y) модальных окон:
+
 - Фокус удерживается внутри модального окна при навигации с помощью клавиатуры (Tab/Shift+Tab)
 - Фокус циклически перемещается между элементами внутри модального окна
 - Предотвращает выход фокуса за пределы модального окна на элементы основной страницы
@@ -22,6 +23,7 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 ### 2. Маска для номера телефона
 
 Добавлена автоматическая форматирование и валидация номера телефона:
+
 - Автоматическое форматирование ввода в формат `+7 XXX XXX XX XX`
 - Обработка ввода с автоматическим добавлением пробелов
 - Нормализация номеров, начинающихся с 7 или 8
@@ -30,6 +32,7 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 ### 3. Модальное окно подтверждения удаления
 
 Реализовано модальное окно для подтверждения удаления организации:
+
 - Предотвращает случайное удаление записей
 - Отображает название удаляемой организации для подтверждения
 - Улучшает безопасность и предотвращает потерю данных пользователем
